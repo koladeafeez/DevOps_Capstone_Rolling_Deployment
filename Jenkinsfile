@@ -20,7 +20,6 @@ pipeline {
               steps {
                   sh 'echo Image Push...'
                   }
-              }
          }
          stage('Deploying') {
               steps{
